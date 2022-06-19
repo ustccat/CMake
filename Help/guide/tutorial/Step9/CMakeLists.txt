@@ -37,6 +37,7 @@ install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
   )
 
 # enable testing
+# 启用仪表板脚本
 include(CTest)
 
 # does the application run

@@ -1,6 +1,12 @@
 # Common build directories
 build*/
 
+# Tutorial build directories
+Step*_build/
+
+# Tutorial install directories
+Step*_install/
+
 # Exclude MacOS Finder files.
 .DS_Store
 

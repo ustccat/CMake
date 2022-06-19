@@ -44,6 +44,7 @@ endif()
 
 # define the symbol stating we are using the declspec(dllexport) when
 # building on windows
+# 定义符号说明我们在 Windows 上构建时使用 declspec(dllexport)
 target_compile_definitions(MathFunctions PRIVATE "EXPORTING_MYMATH")
 
 # install rules

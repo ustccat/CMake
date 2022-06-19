@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name and version
+# MAJOR_VERSION and MINOR VERSION is seperated by comma
 project(Tutorial VERSION 1.0)
 
 # specify the C++ standard

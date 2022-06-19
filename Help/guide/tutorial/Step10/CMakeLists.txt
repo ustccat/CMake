@@ -13,6 +13,8 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 
+# 在本节中，我们将展示如何使用 BUILD_SHARED_LIBS 变量来控制 add_library() 的默认行为，
+# 并允许控制如何构建没有显式类型（STATIC、SHARED、MODULE 或 OBJECT）的库。
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 # configure a header file to pass the version number only
